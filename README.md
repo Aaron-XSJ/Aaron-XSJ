@@ -11,7 +11,7 @@
 一枚贴在冰箱上的音乐冰箱贴：**电子墨水屏常驻显示 CD 封面**，配上曲名与进度，按键切歌，小喇叭出声。尺寸按怀旧 CD 盒来做；不播的时候封面也留在屏上，像一张摆在冰箱门上的唱片封套。
 
 <p align="center">
-  <img src="./assets/epd-cd-fridge-magnet.svg" width="680" alt="EPD：CD 封面冰箱贴产品形态示意">
+  <img src="https://cdn.jsdelivr.net/gh/Aaron-XSJ/Aaron-XSJ@main/assets/epd-cd-fridge-magnet.svg" width="680" alt="EPD：CD 封面冰箱贴产品形态示意">
 </p>
 
 > 选墨水屏，是因为断电保图、静态几乎不耗电、类纸质感接近印刷封面；只在切歌时刷新一次，反而更像实体唱片，而不是一块常亮的小电视。
@@ -34,7 +34,7 @@
 ### 📷 墨水屏已点亮
 
 <p align="center">
-  <img src="./assets/epd-eink-real.jpg" width="420" alt="GDEM037F36 四色墨水屏实拍：黑白红黄四色全家福插画">
+  <img src="https://cdn.jsdelivr.net/gh/Aaron-XSJ/Aaron-XSJ@main/assets/epd-eink-real.svg" width="420" alt="GDEM037F36 四色墨水屏实拍：黑白红黄四色全家福插画">
 </p>
 
 <p align="center"><sub>3.7" 四色电子墨水屏实拍 · 黑 / 白 / 黄 / 红，断电后画面常驻</sub></p>
