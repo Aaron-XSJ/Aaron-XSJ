@@ -1,8 +1,8 @@
 ### Hi there 👋
 
-我是 **Aaron-XSJ**，在合肥，做嵌入式和硬件 DIY：从 STM32 固件、SDIO / SPI 驱动，到 BLE 设备和微信小程序，喜欢把一块开发板做成能摆在手边、能摸得到的实物。
+我是 **Aaron-XSJ**，在合肥，做嵌入式和硬件 DIY：从 STM32 固件、各类接口驱动，到 BLE 设备和微信小程序，喜欢把一块开发板做成能摆在手边、能摸得到的实物。
 
-🛠️ 常用：`STM32F103` · `Keil MDK` · `C` · `FatFs` · `SPI / SDIO` · `VS1003` · `BLE` · `Git`
+🛠️ 常用：`STM32` · `ESP32` · `AD` · `Keil MDK` · `IAR` · `C/C++` · `FreeRTOS` · `FatFs` · `lwip` · `SPI / SDIO` · `AD / DA` · `BLE` · `Git`
 
 ---
 
