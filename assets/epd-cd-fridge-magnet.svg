@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 440" width="100%" role="img" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif">
+  <title>EPD：会播放音乐的 CD 封面冰箱贴产品形态示意</title>
+  <desc>左侧是 CD 盒比例的冰箱贴正面，电子墨水屏常驻显示 CD 封面与曲名进度；右侧是内部模块，播放链路已跑通，墨水屏、供电与外壳仍在规划中。</desc>
+  <rect x="0" y="0" width="680" height="440" rx="16" fill="#FFFFFF"/>
+  <text x="40" y="54" font-size="15" font-weight="500" fill="#2C2C2A">EPD · 会播放音乐的 CD 冰箱贴</text>
+  <text x="640" y="54" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="end">产品形态示意</text>
+
+  <rect x="44" y="76" width="236" height="286" rx="16" fill="#FFFFFF" stroke="#B4B2A9" stroke-width="0.5"/>
+  <rect x="56" y="88" width="212" height="212" rx="8" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="0.5"/>
+  <rect x="64" y="96" width="196" height="196" rx="4" fill="#FAEEDA"/>
+  <text x="74" y="114" font-size="11" font-weight="500" fill="#854F0B">SIDE A</text>
+  <circle cx="162" cy="196" r="72" fill="#FAC775" stroke="#BA7517" stroke-width="0.5"/>
+  <circle cx="162" cy="196" r="58" fill="none" stroke="#FFFFFF" stroke-width="0.5" opacity="0.8"/>
+  <circle cx="162" cy="196" r="46" fill="none" stroke="#FFFFFF" stroke-width="0.5" opacity="0.8"/>
+  <path d="M116 158 A72 72 0 0 1 200 140" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity="0.75"/>
+  <circle cx="162" cy="196" r="24" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+  <circle cx="162" cy="196" r="6" fill="#FFFFFF" stroke="#BA7517" stroke-width="0.5"/>
+  <text x="250" y="284" font-size="11" font-weight="400" fill="#854F0B" text-anchor="end">1997</text>
+
+  <text x="56" y="322" font-size="12" font-weight="500" fill="#2C2C2A">Track 03 · 夜航西飞</text>
+  <rect x="56" y="332" width="212" height="4" rx="2" fill="#D3D1C7"/>
+  <rect x="56" y="332" width="88" height="4" rx="2" fill="#185FA5"/>
+  <text x="268" y="350" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="end">01:24 / 03:52</text>
+  <text x="44" y="380" font-size="11" font-weight="400" fill="#5F5E5A">CD 盒比例 · 背面磁贴 · 内置小喇叭</text>
+
+  <text x="320" y="72" font-size="13" font-weight="500" fill="#2C2C2A">内部构成</text>
+
+  <rect x="320" y="82" width="320" height="42" rx="10" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.5"/>
+  <circle cx="336" cy="103" r="4" fill="#185FA5"/>
+  <text x="350" y="99" font-size="13" font-weight="500" fill="#042C53">STM32F103ZE 主控</text>
+  <text x="350" y="115" font-size="11" font-weight="400" fill="#185FA5">Cortex-M3 @72MHz</text>
+  <text x="628" y="107" font-size="11" font-weight="400" fill="#185FA5" text-anchor="end">主控</text>
+
+  <rect x="320" y="130" width="320" height="42" rx="10" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.5"/>
+  <circle cx="336" cy="151" r="4" fill="#185FA5"/>
+  <text x="350" y="147" font-size="13" font-weight="500" fill="#042C53">TF 卡 · SDIO 4-bit</text>
+  <text x="350" y="163" font-size="11" font-weight="400" fill="#185FA5">FatFs R0.11 读取音频文件</text>
+  <text x="628" y="155" font-size="11" font-weight="400" fill="#185FA5" text-anchor="end">已跑通</text>
+
+  <rect x="320" y="178" width="320" height="42" rx="10" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.5"/>
+  <circle cx="336" cy="199" r="4" fill="#185FA5"/>
+  <text x="350" y="195" font-size="13" font-weight="500" fill="#042C53">VS1003 · SPI1</text>
+  <text x="350" y="211" font-size="11" font-weight="400" fill="#185FA5">硬件解码 MP3 / WAV</text>
+  <text x="628" y="203" font-size="11" font-weight="400" fill="#185FA5" text-anchor="end">已跑通</text>
+
+  <rect x="320" y="226" width="320" height="42" rx="10" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
+  <circle cx="336" cy="247" r="4" fill="#0C447C"/>
+  <text x="350" y="243" font-size="13" font-weight="500" fill="#042C53">双缓冲 + DREQ 流控</text>
+  <text x="350" y="259" font-size="11" font-weight="400" fill="#0C447C">读卡藏在解码时间里，不卡顿</text>
+  <text x="628" y="251" font-size="11" font-weight="500" fill="#0C447C" text-anchor="end">核心</text>
+
+  <rect x="320" y="274" width="320" height="42" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5" stroke-dasharray="4 3"/>
+  <circle cx="336" cy="295" r="4" fill="#888780"/>
+  <text x="350" y="291" font-size="13" font-weight="500" fill="#444441">电子墨水屏 · SPI2</text>
+  <text x="350" y="307" font-size="11" font-weight="400" fill="#5F5E5A">显示 CD 封面、曲名与进度</text>
+  <text x="628" y="299" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="end">规划中</text>
+
+  <rect x="320" y="322" width="320" height="42" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5" stroke-dasharray="4 3"/>
+  <circle cx="336" cy="343" r="4" fill="#888780"/>
+  <text x="350" y="339" font-size="13" font-weight="500" fill="#444441">功放 / 喇叭 / 电池 / 磁贴</text>
+  <text x="350" y="355" font-size="11" font-weight="400" fill="#5F5E5A">CD 盒外壳与背面磁铁</text>
+  <text x="628" y="347" font-size="11" font-weight="400" fill="#5F5E5A" text-anchor="end">规划中</text>
+
+  <text x="320" y="380" font-size="11" font-weight="400" fill="#5F5E5A">建议 EPD 走独立 SPI2，避免全刷打断喂数据</text>
+
+  <rect x="40" y="394" width="280" height="26" rx="13" fill="#E6F1FB"/>
+  <text x="180" y="411" font-size="12" font-weight="500" fill="#185FA5" text-anchor="middle">已验证：播放链路</text>
+  <rect x="336" y="394" width="304" height="26" rx="13" fill="#F1EFE8"/>
+  <text x="488" y="411" font-size="12" font-weight="400" fill="#5F5E5A" text-anchor="middle">规划中：屏幕 / 封面 / 供电 / 外壳</text>
+</svg>
